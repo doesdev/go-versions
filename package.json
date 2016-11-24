@@ -1,0 +1,36 @@
+{
+  "name": "go-versions",
+  "version": "1.0.0",
+  "description": "Get list of GO version tags",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "bin": {
+    "go-versions": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doesdev/go-versions.git"
+  },
+  "keywords": [
+    "go",
+    "golang",
+    "version",
+    "tag",
+    "list"
+  ],
+  "author": "Andrew Carpenter (https://github.com/doesdev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doesdev/go-versions/issues"
+  },
+  "homepage": "https://github.com/doesdev/go-versions#readme",
+  "dependencies": {
+    "xml2js": "^0.4.17"
+  }
+}
