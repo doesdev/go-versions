@@ -14,9 +14,6 @@ $ npm install --save go-versions
 $ npm install --global go-versions
 ```
 
-## api
-- **someArgument** *(argumentType - required|optional)*
-
 ## programmatic usage
 
 ```js
