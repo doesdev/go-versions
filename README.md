@@ -21,6 +21,8 @@ var goVersions = require('go-versions')
 goVersions().then(console.log).catch(console.error)
 ```
 
+## cli usage
+
 ```sh
 $ go-versions
 # 1.7.3
