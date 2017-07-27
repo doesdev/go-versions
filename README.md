@@ -1,4 +1,4 @@
-# go-versions [![NPM version](https://badge.fury.io/js/go-versions.svg)](https://npmjs.org/package/go-versions)   [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+# go-versions [![NPM version](https://badge.fury.io/js/go-versions.svg)](https://npmjs.org/package/go-versions)   [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)   [![Dependency Status](https://dependencyci.com/github/doesdev/go-versions/badge)](https://dependencyci.com/github/doesdev/go-versions)
 
 > Get list of GO version tags
 
