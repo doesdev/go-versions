@@ -1,10 +1,10 @@
 {
   "name": "go-versions",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Get list of GO version tags",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava --verbose"
   },
   "files": [
     "index.js",
@@ -30,5 +30,7 @@
     "url": "https://github.com/doesdev/go-versions/issues"
   },
   "homepage": "https://github.com/doesdev/go-versions#readme",
-  "dependencies": {}
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
 }

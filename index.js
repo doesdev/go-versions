@@ -9,6 +9,9 @@ const gtagOpts = {
   port: 443,
   headers: {'User-Agent': 'doesdev/go-versions'}
 }
+if (process.env.GITHUB_OAUTH_TOKEN) {
+  gtagOpts.headers['Authorization'] = `token ${process.env.GITHUB_OAUTH_TOKEN}`
+}
 
 // Exports
 module.exports = goVersions

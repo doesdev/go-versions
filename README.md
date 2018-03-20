@@ -17,7 +17,7 @@ $ npm install --global go-versions
 ## programmatic usage
 
 ```js
-var goVersions = require('go-versions')
+const goVersions = require('go-versions')
 goVersions().then(console.log).catch(console.error)
 ```
 
@@ -28,6 +28,18 @@ $ go-versions
 # 1.7.3
 # 1.7.2
 # ...
+```
+
+## extra
+
+The version list is pulled from github releases. For 90% of cases this needs no
+special handling or thought. However, for things like CI which rely on this
+module you may encounter problems due to rate limiting. To remedy that we will
+pass your (github auth token)[https://github.com/settings/tokens] if you have
+it set as an environment variable.
+
+```sh
+set GITHUB_OAUTH_TOKEN=mytoken
 ```
 
 ## License
